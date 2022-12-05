@@ -32,7 +32,7 @@ public class EscenarioRestController {
     public Escenario findById(@PathVariable String id) {
     	Escenario escenarioVacio = new Escenario();
     	escenarioVacio.setEsc_nombre("-1");
-    	Escenario escenario = this.escenarioService.findById(id).orElse(null);
+    	Escenario escenario = this.escenarioService.findById(id).orElse(escenarioVacio);
     	/*
     	if (escenario!=null && escenario.getEsc_foto()!=null) {
     		escenario.setEsc_foto(decompressBytes(escenario.getEsc_foto())); 
