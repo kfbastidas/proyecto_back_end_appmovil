@@ -38,7 +38,9 @@ public class CategoriaRestController {
     
     @GetMapping("/categorias/{id}")
     public Categoria findById(@PathVariable String id) {
-    	Categoria categoria = this.categoriaService.findById(id).orElse(null);
+    	Categoria categoriaVacia = new Categoria();
+    	categoriaVacia.setCat_nombre("-1");
+    	Categoria categoria = this.categoriaService.findById(id).orElse(categoriaVacia);
 //    	if (categoria!=null && categoria.getCat_foto()!=null) {
 //    		categoria.setCat_foto(decompressBytes(categoria.getCat_foto())); 
 //		}
