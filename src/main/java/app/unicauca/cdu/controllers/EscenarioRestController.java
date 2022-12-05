@@ -32,6 +32,7 @@ public class EscenarioRestController {
     public Escenario findById(@PathVariable String id) {
     	Escenario escenarioVacio = new Escenario();
     	escenarioVacio.setEsc_nombre("-1");
+    	escenarioVacio.setEsc_estado('0');
     	Escenario escenario = this.escenarioService.findById(id).orElse(escenarioVacio);
     	/*
     	if (escenario!=null && escenario.getEsc_foto()!=null) {
