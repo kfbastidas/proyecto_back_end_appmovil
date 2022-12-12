@@ -4,10 +4,11 @@ insert into programa values(200,'FUTBOL SALA FUNCIONARIOS 15 CUPOS');
 insert into usuario(user_id,user_documento,user_nombre,user_genero,user_fecha,user_email,user_password) values(1,123,'juan salamanca','M',null,'juans@unicauca.edu.co','12345678');
 insert into usuario(user_id,user_documento,user_nombre,user_genero,user_fecha,user_email,user_password) values(2,456,'pepito peres','M',null,'pepito@unicauca.edu.co','12345678');
 
-insert into horario(hor_hora_inicio,hor_hora_fin,hor_fecha_inicio,hor_fecha_fin,hor_dia,esc_nombre,pro_id,user_id,hor_estado) values(9,11,'2021-02-12','2021-02-19','LUNES','CANCHA BALONCESTO 1',100,null,'0');
-insert into horario(hor_hora_inicio,hor_hora_fin,hor_fecha_inicio,hor_fecha_fin,hor_dia,esc_nombre,pro_id,user_id,hor_estado) values(10,11,'2021-02-12','2021-02-19','MARTES','CANCHA BALONCESTO 1',200,null,'0');
-insert into horario(hor_hora_inicio,hor_hora_fin,hor_fecha_inicio,hor_fecha_fin,hor_dia,esc_nombre,pro_id,user_id,hor_estado) values(13,18,'2021-02-12','2021-02-19','JUEVES','CANCHA BALONCESTO 1',100,null,'0');
-insert into horario(hor_hora_inicio,hor_hora_fin,hor_fecha_inicio,hor_fecha_fin,hor_dia,esc_nombre,pro_id,user_id,hor_estado) values(9,11,'2021-02-12','2021-02-19','LUNES','CANCHA BALONCESTO 2',200,null,'0');
+insert into horario(hor_hora_inicio,hor_hora_fin,hor_fecha_inicio,hor_fecha_fin,hor_dia,esc_nombre,pro_id,user_id,hor_estado) values(9,11,'2022-12-15','2022-12-15','LUNES','CANCHA SINTETICA NO. 1',100,null,'0');
+insert into horario(hor_hora_inicio,hor_hora_fin,hor_fecha_inicio,hor_fecha_fin,hor_dia,esc_nombre,pro_id,user_id,hor_estado) values(10,11,'2022-12-14','2022-12-14','MARTES','CANCHA SINTETICA NO. 1',200,null,'0');
+insert into horario(hor_hora_inicio,hor_hora_fin,hor_fecha_inicio,hor_fecha_fin,hor_dia,esc_nombre,pro_id,user_id,hor_estado) values(13,14,'2022-12-13','2022-12-13','JUEVES','CANCHA SINTETICA NO. 1',100,null,'0');
+insert into horario(hor_hora_inicio,hor_hora_fin,hor_fecha_inicio,hor_fecha_fin,hor_dia,esc_nombre,pro_id,user_id,hor_estado) values(9,11,'2022-12-16','2022-12-16','LUNES','CANCHA SINTETICA NO. 2',200,null,'0');
+
 
 insert into categoria (cat_nombre,cat_foto,cat_descripcion) values('TULCAN','','El Centro Deportivo Universitario Tulcán, está ubicado al frente del edificio de Ingeniería Civil sobre la Carrera 2 entre Calles 10 N y 15 N');
 
